@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     filtersDiv.appendChild(filterGenreSelect);
 
     let allItems = [];
-    const TMDB_API_KEY = "LA_TUA_CHIAVE_API";
+    const TMDB_API_KEY = "2780c8e7e8ce53c4ca33e83e195da771";
 
     // Funzione per caricare i dati dal file JSON e da TMDB
     async function fetchItems() {

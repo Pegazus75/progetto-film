@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivio Film</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Archivio Film</h1>
+
+    <div class="filters">
+        <label for="search-title">Cerca per Titolo:</label>
+        <input type="text" id="search-title" placeholder="Es. Happy Family...">
+
+        <label for="filter-year">Filtra per Anno:</label>
+        <select id="filter-year">
+            <option value="">Tutti gli anni</option>
+        </select>
+
+        <label for="filter-date">Filtra per Data di Inserimento:</label>
+        <input type="date" id="filter-date">
+    </div>
+
+    <div id="movies-container" class="movies-container">
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
